@@ -11,6 +11,19 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+     let nuevoArreglo = [];
+     for(let i = 0 ; i<array.length;i++){
+
+        if(array[i] >= 0)
+        {
+           nuevoArreglo.push(array[i]);
+           
+        }
+           
+     }
+
+     return nuevoArreglo ;
+
 
 }
 
